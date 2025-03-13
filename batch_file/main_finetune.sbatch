@@ -6,7 +6,7 @@
 #BSUB -e errput_%J
 #BSUB -q 4gpu
 
-cd /share/home/hulianting/Project/Project20_ECG_foundation_model/Model/model10_MAE/
+cd /share/home/px/Project/Project20_ECG_foundation_model/Model/model10_MAE/
 module load anaconda
 source activate hlt_py310_torch_new
 module load cuda/11.5.0
